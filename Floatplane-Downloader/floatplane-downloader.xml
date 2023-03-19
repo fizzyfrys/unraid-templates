@@ -22,7 +22,10 @@
   <Overview> Floatplane-Downloader -  Automagically downloads the latest videos from Floatplane and optionally formats them to be viewed in Plex.&#xD;
 Both downloading videos as they release and archiving the entire backlog is supported&#xD;
 &#xD;
+&#xD;
 To setup floatplane-downloader, you will have to edit the settings.json file in /mnt/user/appdata/floatplane-downloader/db &#xD;
+https://github.com/Inrixia/Floatplane-Downloader/blob/master/wiki/settings.md&#xD;
+&#xD;
 Or you can read through the advanced-env setup to configure it only through container variables: https://github.com/Inrixia/Floatplane-Downloader/blob/master/wiki/advenv.md</Overview>
   <Category>Downloaders: MediaServer:Video</Category>
   <WebUI/>

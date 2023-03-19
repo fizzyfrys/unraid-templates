@@ -17,7 +17,7 @@
     <TagDescription>Releases from the develop branch</TagDescription>
   </Branch>  
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://discord.gg/aNTyMME</Support>
   <Project/>
   <Overview> Floatplane-Downloader -  Automagically downloads the latest videos from Floatplane and optionally formats them to be viewed in Plex.&#xD;
 Both downloading videos as they release and archiving the entire backlog is supported&#xD;
@@ -33,7 +33,7 @@ Or you can read through the advanced-env setup to configure it only through cont
   <CPUset/>
   <Date>2023-03-19</Date>
   <DonateText>If you like the project, and want to support me, throw some bits at my PayPal</DonateText>
-  <DonateLink>https://www.paypal.com/donate?business=XZX2VLBCVA766&currency_code=NZD;</DonateLink>
+  <DonateLink>https://www.paypal.com/donate?business=XZX2VLBCVA766&amp;currency_code=NZD</DonateLink>
   <Requires/>
   <Config Name="Floatplane Username" Target="username" Default="" Mode="" Description="Enter your floatplane account username" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="Floatplane Password" Target="password" Default="" Mode="" Description="Enter your floatplane account password" Type="Variable" Display="always-hide" Required="true" Mask="true"/>

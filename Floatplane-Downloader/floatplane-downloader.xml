@@ -8,7 +8,6 @@
   <Shell>sh</Shell>
   <Project>https://github.com/Inrixia/Floatplane-Downloader</Project>
   <GitHub>https://github.com/Inrixia/Floatplane-Downloader</GitHub>
-  <ReadMe>https://github.com/Inrixia/Floatplane-Downloader/blob/master/wiki/settings.md</ReadMe>
   <Branch>
     <Tag>latest</Tag>
     <TagDescription>Stable release</TagDescription>

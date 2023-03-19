@@ -27,7 +27,7 @@ Or you can read through the advanced-env setup to configure it only through cont
   <Category>Downloaders: MediaServer:Video</Category>
   <WebUI/>
   <TemplateURL/>
-  <Icon>https://cdn.discordapp.com/icons/468977142198435841/bb93dd46ee0728461ff64339763c250b.webp?size=128</Icon>
+  <Icon>https://raw.githubusercontent.com/fizzyfrys/unraid-templates/main/icons/floatplane.webp</Icon>
   <ExtraParams> --restart unless-stopped -e headless="true"</ExtraParams>
   <PostArgs/>
   <CPUset/>

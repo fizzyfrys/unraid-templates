@@ -32,7 +32,7 @@ Or you can read through the advanced-env setup to configure it only through cont
   <ExtraParams>-e headless="true"</ExtraParams>
   <PostArgs/>
   <CPUset/>
-  <Date>2023-03-22</Date>
+  <Date>2023-03-24</Date>
   <DonateText>If you like the project, and want to support me, throw some bits at my PayPal</DonateText>
   <DonateLink>https://www.paypal.com/donate?business=XZX2VLBCVA766&amp;currency_code=NZD</DonateLink>
   <Requires>A paid floatplane subscription.</Requires>

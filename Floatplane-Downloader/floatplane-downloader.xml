@@ -29,7 +29,7 @@ Or you can read through the advanced-env setup to configure it only through cont
   <WebUI/>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/fizzyfrys/unraid-templates/main/icons/floatplane.webp</Icon>
-  <ExtraParams> --restart on-failure -e headless="true"</ExtraParams>
+  <ExtraParams>-e headless="true"</ExtraParams>
   <PostArgs/>
   <CPUset/>
   <Date>2023-03-22</Date>

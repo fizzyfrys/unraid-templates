@@ -22,7 +22,7 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1696287522</DateInstalled>
+  <DateInstalled>1696287580</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires>You will need a Premium service at Real-Debrid, AllDebrid or Premiumize!&#xD;
@@ -32,7 +32,7 @@ https://real-debrid.com/?id=1348683&#xD;
 https://alldebrid.com/?uid=2v91l&#xD;
 https://www.premiumize.me/</Requires>
   <Config Name="Database Path" Target="/data/db" Default="/mnt/user/appdata/rdt-client/db" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/rdt-client/db</Config>
-  <Config Name="Downloads" Target="/data/downloads" Default="/mnt/user" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user</Config>
+  <Config Name="Downloads" Target="/data/downloads" Default="/mnt/user" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Host Port" Target="6500" Default="6500" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">6500</Config>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>

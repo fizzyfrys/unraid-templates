@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>rdt-client</Name>
+  <Repository>rogerfar/rdtclient:latest</Repository>
+  <Registry>https://hub.docker.com/r/rogerfar/rdtclient/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/rogerfar/rdt-client</Support>
+  <Project>https://github.com/rogerfar/rdt-client</Project>
+  <Overview>This is a web interface to manage your torrents on Real-Debrid, AllDebrid or Premiumize. It supports the following features:&#xD;
+&#xD;
+- Add new torrents through magnets or files&#xD;
+- Download all files from Real-Debrid, AllDebrid or Premiumize to your local machine automatically&#xD;
+- Unpack all files when finished downloading&#xD;
+- Implements a fake qBittorrent API so you can hook up other applications like Sonarr, Radarr or Couchpotato.&#xD;
+&#xD;
+</Overview>
+  <Category>Downloaders:</Category>
+  <WebUI>http://[IP]:[PORT:6500]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/fizzyfrys/unraid-templates/main/icons/premrealldebrid.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1696287359</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires>You will need a Premium service at Real-Debrid, AllDebrid or Premiumize!&#xD;
+&#xD;
+(Developer's referral links)&#xD;
+https://real-debrid.com/?id=1348683&#xD;
+https://alldebrid.com/?uid=2v91l&#xD;
+https://www.premiumize.me/&#xD;
+&#xD;
+&#xD;
+&#xD;
+&#xD;
+</Requires>
+  <Config Name="Database Path" Target="/data/db" Default="/mnt/user/appdata/rdt-client/db" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/rdt-client/db</Config>
+  <Config Name="Downloads" Target="/data/downloads" Default="/mnt/user" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user</Config>
+  <Config Name="Host Port" Target="6500" Default="6500" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">6500</Config>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
+  <Config Name="UMASK" Target="UMASK" Default="022" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">022</Config>
+</Container>

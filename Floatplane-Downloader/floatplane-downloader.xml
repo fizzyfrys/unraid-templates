@@ -27,12 +27,12 @@ https://github.com/Inrixia/Floatplane-Downloader/blob/master/wiki/settings.md&#x
 Or you can read through the advanced-env setup to configure it only through container variables: https://github.com/Inrixia/Floatplane-Downloader/blob/master/wiki/advenv.md</Overview>
   <Category>Downloaders: MediaServer:Video</Category>
   <WebUI/>
-  <TemplateURL/>
+  <TemplateURL>https://raw.githubusercontent.com/fizzyfrys/unraid-templates/master/Floatplane-Downloader/floatplane-downloader.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/fizzyfrys/unraid-templates/main/icons/floatplane.webp</Icon>
   <ExtraParams>-e headless="true"</ExtraParams>
   <PostArgs/>
   <CPUset/>
-  <Date>2024-03-15</Date>
+  <Date>2024-10-22</Date>
   <DonateText>If you like the project, and want to support me, throw some bits at my PayPal</DonateText>
   <DonateLink>https://www.paypal.com/donate?business=XZX2VLBCVA766&amp;currency_code=NZD</DonateLink>
   <Requires>A paid floatplane subscription.</Requires>
@@ -42,7 +42,7 @@ Or you can read through the advanced-env setup to configure it only through cont
   <Config Name="Floatplane Downloads" Target="/fp/videos" Default="" Mode="rw" Description="Folder for where it downloads the media" Type="Path" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="Floatplane Database/Config" Target="/fp/db" Default="/mnt/user/appdata/floatplane-downloader/db" Mode="rw" Description="Folder that stores the settings config and database" Type="Path" Display="always-hide" Required="true" Mask="false">/mnt/user/appdata/floatplane-downloader/db</Config>
   <Config Name="Plex Username" Target="plexUsername" Default="" Mode="" Description="(optional) If you want floatplane-downloader to automatically trigger a library scan when a new video is added" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
-  <Config Name="Plex Password" Target="plexPassword" Default="" Mode="" Description="(optional) NOTE if you use 2FA enter as " Type="Variable" Display="advanced-hide" Required="false" Mask="true"/>
+  <Config Name="Plex Password" Target="plexPassword" Default="" Mode="" Description="(optional) NOTE if you use 2FA enter as password2FA with no spaces" Type="Variable" Display="advanced-hide" Required="false" Mask="true"/>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
   <Config Name="UMASK" Target="UMASK" Default="022" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">022</Config>

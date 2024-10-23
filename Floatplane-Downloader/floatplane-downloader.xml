@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Floatplane-Downloader</Name>
-  <Repository>inrix/floatplane-downloader</Repository>
+  <Repository>inrix/floatplane-downloader:dev</Repository>
   <Registry>https://hub.docker.com/r/inrix/floatplane-downloader</Registry>
   <Network>bridge</Network>
   <MyIP/>
@@ -9,12 +9,12 @@
   <Project>https://github.com/Inrixia/Floatplane-Downloader</Project>
   <Support>https://discord.gg/aNTyMME</Support>
   <Branch>
-    <Tag>latest</Tag>
-    <TagDescription>Stable release</TagDescription>
+    <Tag>dev</Tag>
+    <TagDescription>Recommended faster fixes and updates</TagDescription>
   </Branch>
   <Branch>
-    <Tag>dev</Tag>
-    <TagDescription>Releases from the develop branch</TagDescription>
+    <Tag>latest</Tag>
+    <TagDescription>Stable but stale</TagDescription>
   </Branch>  
   <Privileged>false</Privileged>
   <Overview> Floatplane-Downloader -  Automagically downloads the latest videos from Floatplane and optionally formats them to be viewed in Plex.&#xD;

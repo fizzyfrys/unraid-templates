@@ -15,16 +15,18 @@
   <Branch>
     <Tag>latest</Tag>
     <TagDescription>Stable but stale</TagDescription>
-  </Branch>  
+  </Branch>
   <Privileged>false</Privileged>
-  <Overview> Floatplane-Downloader -  Automagically downloads the latest videos from Floatplane and optionally formats them to be viewed in Plex.&#xD;
-Both downloading videos as they release and archiving the entire backlog is supported&#xD;
-&#xD;
-&#xD;
-To setup floatplane-downloader, you will have to edit the settings.json file in /mnt/user/appdata/floatplane-downloader/db &#xD;
-https://github.com/Inrixia/Floatplane-Downloader/blob/master/wiki/settings.md&#xD;
-&#xD;
-Or you can read through the advanced-env setup to configure it only through container variables: https://github.com/Inrixia/Floatplane-Downloader/blob/master/wiki/advenv.md</Overview>
+  <ReadMe/>
+  <Overview>Floatplane-Downloader -  Automagically downloads the latest videos from Floatplane and optionally formats them to be viewed in Plex.&#13;
+Both downloading videos as they release and archiving the entire backlog is supported.&#13;
+&#13;
+&#13;
+To setup floatplane-downloader, you will first need to authenticate your account via the OAuth link sent in the container logs on startup.&#13;
+Then edit the settings.json file in /mnt/user/appdata/floatplane-downloader/db and restart.&#13;
+Settings guide: https://github.com/Inrixia/Floatplane-Downloader/blob/master/wiki/settings.md&#13;
+&#13;
+Alternatively to the settings.json you can utilize the advanced-env setup to configure it only through container variables: https://github.com/Inrixia/Floatplane-Downloader/blob/master/wiki/advenv.md</Overview>
   <Category>Downloaders: MediaServer:Video</Category>
   <WebUI/>
   <TemplateURL>https://raw.githubusercontent.com/fizzyfrys/unraid-templates/master/Floatplane-Downloader/floatplane-downloader.xml</TemplateURL>
@@ -32,13 +34,10 @@ Or you can read through the advanced-env setup to configure it only through cont
   <ExtraParams>-e headless="true"</ExtraParams>
   <PostArgs/>
   <CPUset/>
-  <Date>2024-10-22</Date>
+  <DateInstalled>1768814201</DateInstalled>
   <DonateText>If you like the project, and want to support me, throw some bits at my PayPal</DonateText>
-  <DonateLink>https://www.paypal.com/donate?business=XZX2VLBCVA766&amp;currency_code=NZD</DonateLink>
+  <DonateLink>https://www.paypal.com/donate?business=XZX2VLBCVA766&amp;amp;currency_code=NZD</DonateLink>
   <Requires>A paid floatplane subscription.</Requires>
-  <Config Name="Floatplane Username" Target="username" Default="" Mode="" Description="Enter your floatplane account username" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
-  <Config Name="Floatplane Password" Target="password" Default="" Mode="" Description="Enter your floatplane account password" Type="Variable" Display="always-hide" Required="true" Mask="true"/>
-  <Config Name="Two Factor Auth Token" Target="token" Default="" Mode="" Description="(optional) If you use 2FA on your Floatplane account, enter the 6 digit token" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
   <Config Name="Floatplane Downloads" Target="/fp/videos" Default="" Mode="rw" Description="Folder for where it downloads the media" Type="Path" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="Floatplane Database/Config" Target="/fp/db" Default="/mnt/user/appdata/floatplane-downloader/db" Mode="rw" Description="Folder that stores the settings config and database" Type="Path" Display="always-hide" Required="true" Mask="false">/mnt/user/appdata/floatplane-downloader/db</Config>
   <Config Name="Plex Username" Target="plexUsername" Default="" Mode="" Description="(optional) If you want floatplane-downloader to automatically trigger a library scan when a new video is added" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
